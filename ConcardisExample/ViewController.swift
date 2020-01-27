@@ -68,7 +68,8 @@ class ViewController: UIViewController {
                      username: username,
                      password: password,
                      success: { (email, merchantIdentifier, merchantSecretKey) in
-            self.doTransaction(merchantIdentifier: merchantIdentifier, merchantSecretKey: merchantSecretKey)
+            self.doTransaction(merchantIdentifier: merchantIdentifier,
+                               merchantSecretKey: merchantSecretKey)
         }) { (username, error) in
             debugPrint(error.localizedDescription)
         }
@@ -79,19 +80,19 @@ class ViewController: UIViewController {
                                                   merchantIdentifier: merchantIdentifier,
                                                   merchantSecretKey: merchantSecretKey)
 
-        let transactionParameters = MPTransactionParameters.charge(withAmount: Constants.transactionAmount,
-                                                                   currency: Constants.transactionCurrency,
-                                                                   optionals: { optionals in
+        let transactionParams = MPTransactionParameters.charge(withAmount: Constants.transactionAmount,
+                                                                currency: Constants.transactionCurrency,
+                                                                optionals: { optionals in
                                                                     optionals.subject = Constants.transactionSubject
         })
 
-        let accessoryParameters = MPAccessoryParameters.externalAccessoryParameters(with: .miuraMPI,
-                                                                                    protocol: Constants.accessoryProtocol,
-                                                                                    optionals: nil)
+        let accessoryParams = MPAccessoryParameters.externalAccessoryParameters(with: .miuraMPI,
+                                                                                protocol: Constants.accessoryProtocol,
+                                                                                optionals: nil)
         
-        let _ = provider.startTransaction(with: transactionParameters,
-                                                accessoryParameters: accessoryParameters,
-                                                registered: { (_, transaction) in
+        let _ = provider.startTransaction(with: transactionParams,
+                                          accessoryParameters: accessoryParams,
+                                          registered: { (_, transaction) in
             debugPrint("Transaction ID: " + transaction.identifier.debugDescription)
         }, statusChanged: { (process, transaction, processDetails) in
             debugPrint(processDetails.information[0], processDetails.information[1])
