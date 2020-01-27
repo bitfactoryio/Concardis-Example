@@ -71,7 +71,7 @@ That's it. Have fun selling things!
 
 ## Author
 
-Matthias Nagel, matthias.nagel@bitfactory.io
+Matthias Nagel, matthias.nagel@bitfactory.io  
 [Bitfactory GmbH](https://www.bitfactory.io)
 
 ## License
