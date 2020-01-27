@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-ConcardisExample/Pods-ConcardisExample-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework
+${BUILT_PRODUCTS_DIR}/Lockbox/Lockbox.framework
+${PODS_ROOT}/payworks/mpos_accessories_ingenico.framework
+${PODS_ROOT}/payworks/mpos_accessories_ingenico_common.framework
+${PODS_ROOT}/payworks/mpos_accessories_miura_shuttle.framework
+${PODS_ROOT}/payworks/mpos_accessories_vipa.framework
+${PODS_ROOT}/payworks/mpos_comlinks_externalaccessory.framework
+${PODS_ROOT}/payworks/mpos_comlinks_tcp.framework
+${PODS_ROOT}/payworks/mpos_core.framework

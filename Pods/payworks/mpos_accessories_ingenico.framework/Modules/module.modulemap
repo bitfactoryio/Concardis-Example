@@ -1,0 +1,6 @@
+framework module mpos_accessories_ingenico {
+  umbrella header "mpos_accessories_ingenico.h"
+
+  export *
+  module * { export * }
+}

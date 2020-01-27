@@ -1,0 +1,10 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lockbox.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mpos_accessories_ingenico.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mpos_accessories_ingenico_common.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mpos_accessories_miura_shuttle.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mpos_accessories_vipa.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mpos_comlinks_externalaccessory.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mpos_comlinks_tcp.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mpos_core.framework

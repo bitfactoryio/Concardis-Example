@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-ConcardisExample/Pods-ConcardisExample-resources.sh
+${PODS_ROOT}/payworks/mpos_core_resources.bundle
+${PODS_ROOT}/payworks.paybutton/mpos_ui_resources.bundle

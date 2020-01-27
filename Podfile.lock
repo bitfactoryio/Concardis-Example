@@ -1,0 +1,77 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.6.0):
+    - CocoaLumberjack/Core (= 3.6.0)
+  - CocoaLumberjack/Core (3.6.0)
+  - Lockbox (2.1.0)
+  - payworks (2.37.0):
+    - payworks/mpos (= 2.37.0)
+  - payworks.paybutton (2.37.0):
+    - Lockbox (~> 2.1.0)
+    - payworks/mpos/core (= 2.37.0)
+  - payworks/mpos (2.37.0):
+    - payworks/mpos/accessories (= 2.37.0)
+    - payworks/mpos/comlinks (= 2.37.0)
+    - payworks/mpos/core (= 2.37.0)
+  - payworks/mpos/accessories (2.37.0):
+    - payworks/mpos/accessories/ingenico (= 2.37.0)
+    - payworks/mpos/accessories/miura (= 2.37.0)
+    - payworks/mpos/accessories/vipa (= 2.37.0)
+  - payworks/mpos/accessories/ingenico (2.37.0):
+    - payworks/mpos/comlinks/tcp
+    - payworks/mpos/core
+  - payworks/mpos/accessories/miura (2.37.0):
+    - payworks/mpos/comlinks/externalaccessory
+    - payworks/mpos/comlinks/tcp
+    - payworks/mpos/core
+  - payworks/mpos/accessories/vipa (2.37.0):
+    - payworks/mpos/comlinks/tcp
+    - payworks/mpos/core
+  - payworks/mpos/comlinks (2.37.0):
+    - payworks/mpos/comlinks/externalaccessory (= 2.37.0)
+    - payworks/mpos/comlinks/tcp (= 2.37.0)
+  - payworks/mpos/comlinks/externalaccessory (2.37.0):
+    - payworks/mpos/core
+  - payworks/mpos/comlinks/tcp (2.37.0):
+    - payworks/mpos/core
+  - payworks/mpos/core (2.37.0):
+    - AFNetworking (~> 3.0)
+    - CocoaLumberjack (~> 3.2)
+
+DEPENDENCIES:
+  - payworks
+  - payworks.paybutton
+
+SPEC REPOS:
+  https://bitbucket.org/payworks/io.payworks.repo.pods.git:
+    - payworks
+    - payworks.paybutton
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - CocoaLumberjack
+    - Lockbox
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
+  Lockbox: 16442da35d9d4286966936763be728a931d589c3
+  payworks: 377333c24b31894c0d895df4347c2fdc74905349
+  payworks.paybutton: 249337353192f106b138afd7a8839bc030d45419
+
+PODFILE CHECKSUM: b0ecf8aa276b7386d594839028195b4db0ab2a53
+
+COCOAPODS: 1.8.4
